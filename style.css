@@ -3,21 +3,16 @@ body {
     background: #f0f2f5;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     max-width: 600px;
-    margin: 20px;
+    margin: 20px auto;
     background: #fff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
 }
 
 h1,
@@ -28,7 +23,7 @@ h3 {
 }
 
 
-/* ✅ Form styling */
+/* Form styling */
 
 form {
     display: flex;
@@ -44,6 +39,7 @@ form button {
     border: 1px solid #ccc;
     border-radius: 8px;
     flex: 1;
+    min-width: 140px;
     font-size: 1em;
     box-sizing: border-box;
 }
@@ -53,8 +49,8 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
-    font-weight: bold;
     transition: background 0.3s;
+    font-weight: bold;
 }
 
 form button:hover {
@@ -62,7 +58,7 @@ form button:hover {
 }
 
 
-/* ✅ Balance Section */
+/* Balance Section */
 
 .balance {
     text-align: center;
@@ -72,7 +68,7 @@ form button:hover {
 }
 
 
-/* ✅ Transaction List */
+/* Transaction List */
 
 .lists ul {
     list-style: none;
@@ -110,19 +106,17 @@ form button:hover {
 }
 
 
-/* ✅ Chart */
+/* Chart */
 
 .chart {
     margin-top: 20px;
 }
 
 
-/* 📱 Mobile Responsive */
+/* 📱 Responsive Design */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .container {
-        width: 95%;
-        margin: 10px auto;
         padding: 15px;
     }
     form {
@@ -133,20 +127,22 @@ form button:hover {
     form select,
     form button {
         width: 100%;
-    }
-    .lists li {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 6px;
-        font-size: 0.95em;
-    }
-    .lists li button {
-        align-self: flex-end;
+        min-width: unset;
+        font-size: 1em;
     }
     h1 {
         font-size: 1.4em;
     }
     h2 {
         font-size: 1.1em;
+    }
+    .lists li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 0.95em;
+    }
+    .lists li button {
+        align-self: flex-end;
     }
 }
