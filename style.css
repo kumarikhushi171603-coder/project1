@@ -112,7 +112,7 @@ form button:hover {
   }
 
   form input, form select, form button {
-    width: 100%;
+    width: 95%;
     min-width: 100%;
     font-size: 1em;
   }
