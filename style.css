@@ -127,7 +127,7 @@ form button:hover {
     form input,
     form select,
     form button {
-        width: 95%;
+        width: 100%;
         min-width: unset;
         font-size: 1em;
     }
