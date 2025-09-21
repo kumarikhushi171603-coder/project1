@@ -39,7 +39,7 @@ form button {
     border: 1px solid #ccc;
     border-radius: 10px;
     flex: 1;
-    min-width: 140px;
+    min-width: 100%;
     font-size: 1em;
     box-sizing: border-box;
     align-items: center;
