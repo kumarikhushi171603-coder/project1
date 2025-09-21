@@ -159,11 +159,4 @@ footer {
     font-size: 14px;
     border-top: 1px solid #ccc;
     margin-top: 20px;
-}
-
-@media (max-width: 600px) {
-    footer {
-        font-size: 12px;
-        padding: 10px;
-    }
-}
+}1
