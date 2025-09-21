@@ -30,6 +30,7 @@ form {
     gap: 10px;
     margin-bottom: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 form input,
@@ -96,6 +97,9 @@ form button:hover {
     font-size: 1.2em;
 }
 
+
+/* Income & Expense colors */
+
 .income {
     color: green;
     font-weight: bold;
@@ -106,6 +110,16 @@ form button:hover {
     font-weight: bold;
 }
 
+li.income {
+    border-left: 6px solid green;
+    background: #e8f5e9;
+}
+
+li.expense {
+    border-left: 6px solid red;
+    background: #ffebee;
+}
+
 
 /* Chart */
 
@@ -114,11 +128,13 @@ form button:hover {
 }
 
 
-/* 📱 Responsive Design */
+/*  Responsive Design */
 
 @media (max-width: 600px) {
     .container {
         padding: 15px;
+        margin-bottom: 20px;
+        
     }
     form {
         flex-direction: column;
@@ -149,7 +165,7 @@ form button:hover {
 }
 
 
-/* Footer Styling */
+/* Footer Styling  */
 
 footer {
     text-align: center;
@@ -158,5 +174,4 @@ footer {
     color: #333;
     font-size: 14px;
     border-top: 1px solid #ccc;
-    margin-top: 20px;
 }
