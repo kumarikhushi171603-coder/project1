@@ -101,7 +101,7 @@ form button:hover {
 }
 
 /* 📱 Responsive Design */
-@media (max-width:100%) {
+@media (max-width:600px) {
   .container {
     padding: 15px;
   }
