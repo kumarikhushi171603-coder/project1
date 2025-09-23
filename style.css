@@ -1,5 +1,5 @@
 /* Ensure the page takes full height and uses flexbox */
-html, body {
+html {
     height: 100%; /* Ensure full height for body */
     display: flex;
     flex-direction: column;
