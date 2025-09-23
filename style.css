@@ -171,9 +171,8 @@ footer {
     font-size: 16px;
     padding: 20px;
     margin-top: 40px;
-    background-color: #000000;
+    background-color: #9c9c9c;
     color: white;
-    position: relative; /* Just in case */
-    bottom: 0;
-    width: 100%;
+    border-radius: 8px;
 }
+
